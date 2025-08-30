@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>OTP</title></head>
+<body>
+  <h2>Enter OTP</h2>
+  <form method="POST">
+    OTP: <input type="text" name="otp" required><br><br>
+    <button type="submit">Verify</button>
+  </form>
+  <p>Use Google Authenticator (or similar TOTP app) and add this setup key: <strong>{{ session['otp_secret'] }}</strong></p>
+</body>
+</html>
