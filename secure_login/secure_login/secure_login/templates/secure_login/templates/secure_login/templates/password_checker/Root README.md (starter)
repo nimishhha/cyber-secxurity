@@ -1,0 +1,8 @@
+# Cybersec Projects - Nimisha
+
+Contains two small projects for industrial training evaluation:
+
+1. secure_login/ - Flask app with bcrypt password hashing + TOTP (Google Authenticator).
+2. password_checker/ - CLI password strength analyzer.
+
+Run instructions are in each folder. Do NOT commit `.venv` or `users.db`.
